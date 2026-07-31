@@ -20,7 +20,7 @@ jobs:
         with:
           filename: metrics.github.svg
           user: Kenway23
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
 
@@ -29,7 +29,7 @@ jobs:
         with:
           filename: metrics.isocalendar.svg
           user: Kenway23
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -39,7 +39,7 @@ jobs:
         with:
           filename: metrics.languages.svg
           user: Kenway23
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           base: ""
           repositories_affiliations: owner, collaborator, organization_member
           repositories_forks: yes
