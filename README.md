@@ -101,12 +101,12 @@ Saya adalah mahasiswa Teknik Informatika yang tertarik dengan backend developmen
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Kenway23&show_icons=true&theme=dark&hide_border=false&border_color=00C2FF&title_color=00C2FF&icon_color=7C3AED" width="480" alt="Rifki's GitHub stats" />
+<img src="./metrics.github.svg" width="520" alt="GitHub stats" />
 
 <br />
 <br />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kenway23&layout=compact&theme=dark&hide_border=false&border_color=00C2FF&title_color=00C2FF" width="420" alt="Most used languages" />
+<img src="./metrics.languages.svg" width="520" alt="Most used languages" />
 
 </div>
 

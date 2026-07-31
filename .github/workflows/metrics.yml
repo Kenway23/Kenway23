@@ -15,6 +15,15 @@ jobs:
       contents: write
 
     steps:
+      - name: GitHub stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.github.svg
+          user: Kenway23
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Jakarta
+
       - name: Isometric commit calendar
         uses: lowlighter/metrics@latest
         with:
