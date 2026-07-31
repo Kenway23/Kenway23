@@ -61,12 +61,6 @@ Saya adalah mahasiswa Teknik Informatika yang tertarik dengan backend developmen
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Kenway23&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C2FF&icon_color=7C3AED" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kenway23&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C2FF" height="165" alt="Top languages" />
-
-<br />
-<br />
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kenway23&theme=react-dark&hide_border=true&area=true&color=00C2FF&line=00C2FF&point=FFFFFF" width="100%" alt="Contribution graph" />
 
 </div>
