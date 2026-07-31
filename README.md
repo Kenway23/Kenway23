@@ -67,7 +67,7 @@ Saya adalah mahasiswa Teknik Informatika yang tertarik dengan backend developmen
   <img src="https://img.shields.io/badge/Internship-Private_Projects-111827?style=for-the-badge&logo=github&logoColor=white" alt="Private internship projects" />
 </p>
 
-<img src="./metrics.isocalendar.svg" width="400" alt="Isometric commit calendar" />
+<img src="./metrics.isocalendar.svg" width="500" alt="Isometric commit calendar" />
 
 <br />
 <br />
