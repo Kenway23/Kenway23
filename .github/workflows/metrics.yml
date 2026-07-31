@@ -15,15 +15,6 @@ jobs:
       contents: write
 
     steps:
-      - name: GitHub stats
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.github.svg
-          user: Kenway23
-          token: ${{ secrets.METRICS_TOKEN || github.token }}
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Jakarta
-
       - name: Isometric commit calendar
         uses: lowlighter/metrics@latest
         with:
@@ -33,17 +24,3 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
-      - name: Languages activity
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.languages.svg
-          user: Kenway23
-          token: ${{ secrets.METRICS_TOKEN || github.token }}
-          base: ""
-          repositories_affiliations: owner, collaborator, organization_member
-          repositories_forks: yes
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage

@@ -101,12 +101,19 @@ Saya adalah mahasiswa Teknik Informatika yang tertarik dengan backend developmen
 
 <div align="center">
 
-<img src="./metrics.github.svg" width="520" alt="GitHub stats" />
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="780" alt="Profile details" />
 
 <br />
 <br />
 
-<img src="./metrics.languages.svg" width="520" alt="Most used languages" />
+<img src="./profile-summary-card-output/github_dark/3-stats.svg" width="390" alt="GitHub stats" />
+<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="390" alt="Productive time" />
+
+<br />
+<br />
+
+<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="390" alt="Repositories per language" />
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="390" alt="Most commit language" />
 
 </div>
 
