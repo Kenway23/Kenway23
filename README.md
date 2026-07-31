@@ -63,8 +63,7 @@ Saya adalah mahasiswa Teknik Informatika yang tertarik dengan backend developmen
 
 <p>
   <img src="https://img.shields.io/badge/Focus-Backend_Development-00C2FF?style=for-the-badge&logo=nestjs&logoColor=white" alt="Backend Development" />
-  <img src="https://img.shields.io/badge/API-REST_&_Swagger-7C3AED?style=for-the-badge&logo=swagger&logoColor=white" alt="REST API and Swagger" />
-  <img src="https://img.shields.io/badge/Internship-Private_Projects-111827?style=for-the-badge&logo=github&logoColor=white" alt="Private internship projects" />
+  <img src="https://img.shields.io/badge/Web-Development-06B6D4?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Web Development" />
 </p>
 
 <img src="./metrics.isocalendar.svg" width="500" alt="Isometric commit calendar" />
