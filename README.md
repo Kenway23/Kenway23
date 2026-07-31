@@ -6,9 +6,9 @@
 
 # Halo, saya Rifki M F
 
-**Student | Web Developer | Mobile Developer**
+**Informatics Engineering Student | Backend Developer | Web Developer**
 
-Saya suka membangun aplikasi yang rapi, cepat, dan nyaman dipakai. Saat ini saya sedang fokus belajar dan mengembangkan skill di web development, mobile development, dan backend.
+Saya adalah mahasiswa Teknik Informatika yang tertarik dengan backend development, web application, dan database. Saat ini saya sedang fokus belajar membangun sistem yang rapi, terstruktur, dan mudah dikembangkan.
 
 <p>
   <a href="https://github.com/Kenway23">
