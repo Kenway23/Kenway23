@@ -67,13 +67,13 @@ Saya adalah mahasiswa Teknik Informatika yang tertarik dengan backend developmen
   <img src="https://img.shields.io/badge/Internship-Private_Projects-111827?style=for-the-badge&logo=github&logoColor=white" alt="Private internship projects" />
 </p>
 
+<img src="./metrics.isocalendar.svg" width="100%" alt="Isometric commit calendar" />
+
+<br />
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kenway23/Kenway23/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kenway23/Kenway23/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Kenway23/Kenway23/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" />
-</picture>
+<img src="./metrics.languages.svg" width="49%" alt="Languages activity" />
+<img src="./metrics.skyline.svg" width="49%" alt="GitHub skyline" />
 
 </div>
 

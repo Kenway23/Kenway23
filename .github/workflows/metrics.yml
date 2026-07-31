@@ -1,0 +1,50 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Isometric commit calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Languages activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: percentage
+          plugin_languages_indepth: yes
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
+
+      - name: GitHub Skyline
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.skyline.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2026
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 0.7
