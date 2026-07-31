@@ -61,7 +61,19 @@ Saya adalah mahasiswa Teknik Informatika yang tertarik dengan backend developmen
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kenway23&theme=react-dark&hide_border=true&area=true&color=00C2FF&line=00C2FF&point=FFFFFF" width="100%" alt="Contribution graph" />
+<p>
+  <img src="https://img.shields.io/badge/Focus-Backend_Development-00C2FF?style=for-the-badge&logo=nestjs&logoColor=white" alt="Backend Development" />
+  <img src="https://img.shields.io/badge/API-REST_&_Swagger-7C3AED?style=for-the-badge&logo=swagger&logoColor=white" alt="REST API and Swagger" />
+  <img src="https://img.shields.io/badge/Internship-Private_Projects-111827?style=for-the-badge&logo=github&logoColor=white" alt="Private internship projects" />
+</p>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kenway23/Kenway23/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kenway23/Kenway23/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Kenway23/Kenway23/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" />
+</picture>
 
 </div>
 
